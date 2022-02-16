@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>basalt</name>
+  <version>0.1.0</version>
+  <description>This package contains reusable components of the Basalt project (from TUM) as a header-only library</description>
+
+  <author email="adthoms@uwaterloo.ca">Alex Thoms</author>
+  <maintainer email="adthoms@uwaterloo.ca">Alex Thoms</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslint</build_depend>
+
+  <depend>libceres-dev</depend>
+  <depend>eigen</depend>
+
+  <test_depend>rostest</test_depend>
+</package>
